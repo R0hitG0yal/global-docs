@@ -5,7 +5,7 @@ import cors from "cors";
 import mongoose from "mongoose";
 import socket from "./socket";
 import { userRouter } from "./route/userRouter";
-import { docRouter } from "./route/docRouter";
+import docRouter from "./route/docRouter";
 import { generateResponse } from "./chat";
 require("dotenv").config();
 
